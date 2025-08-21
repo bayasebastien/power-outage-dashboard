@@ -19,7 +19,7 @@ function extractFuture(obj) {
 function addOutageToDom(item) {
     tpl = `
         <div class="border rounded-3xl p-10 space-y-4 bg-amber-50">
-            <div data-date class="text-center text-red font-medium">${item.date}</div>
+            <div data-date class="text-center text-red-600 font-medium">${item.date}</div>
             <div data-location class="flex justify-between">
                 <div>${item.locality}</div>
                 <div>${item.district}</div>
